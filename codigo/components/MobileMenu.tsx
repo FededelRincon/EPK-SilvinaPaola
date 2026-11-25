@@ -38,7 +38,7 @@ export function MobileMenu({ links, activeSection, open, onOpenChange, labels }:
   }, [open, onOpenChange]);
 
   return (
-    <div ref={rootRef} className="md:hidden">
+    <div ref={rootRef} className="lg:hidden">
       <button
         ref={buttonRef}
         type="button"

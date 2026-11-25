@@ -53,8 +53,8 @@ export function Navbar({ brand, locale, languages, links, labels }: Props) {
         <a href="#inicio" onClick={() => setMenuOpen(false)} className="py-2 font-serif tracking-widest whitespace-nowrap uppercase">
           {brand}
         </a>
-        <div className="flex items-center gap-2 md:gap-6">
-          <ul className="hidden items-center gap-7 text-sm md:flex">
+        <div className="flex items-center gap-2 lg:gap-6">
+          <ul className="hidden items-center gap-7 text-sm whitespace-nowrap lg:flex">
             {links.map(({ id, label }) => (
               <li key={id}>
                 <a

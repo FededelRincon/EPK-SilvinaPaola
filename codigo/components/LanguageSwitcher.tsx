@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import type { SectionId } from "@/lib/content";
+import { Flag } from "./Flag";
 import { Icon } from "./icons";
 
 type Props = {
@@ -40,16 +41,16 @@ export function LanguageSwitcher({ locale, options, label, activeSection }: Prop
       <button
         ref={buttonRef}
         type="button"
-        aria-label={`${label} (${locale.toUpperCase()})`}
+        aria-label={`${label} (${options.find(({ code }) => code === locale)?.name ?? locale})`}
         aria-expanded={open}
         onClick={() => setOpen((value) => !value)}
-        className="flex h-11 items-center gap-1 px-2 text-sm uppercase"
+        className="flex h-11 items-center gap-1.5 px-2"
       >
-        {locale}
+        <Flag locale={locale} />
         <Icon name="chevron" className={`size-4 transition-transform ${open ? "rotate-180" : ""}`} />
       </button>
       {open && (
-        <ul className="absolute top-full right-0 min-w-20 overflow-hidden rounded-photo bg-navy-deep py-1 shadow-deep">
+        <ul className="absolute top-full right-0 overflow-hidden rounded-photo bg-navy-deep py-1 shadow-deep">
           {options.map(({ code, name }) => (
             <li key={code}>
               <Link
@@ -57,11 +58,12 @@ export function LanguageSwitcher({ locale, options, label, activeSection }: Prop
                 hrefLang={code}
                 lang={code}
                 aria-label={name}
+                title={name}
                 aria-current={code === locale ? "true" : undefined}
                 onClick={() => setOpen(false)}
-                className={`block px-4 py-2.5 text-sm uppercase -outline-offset-4 hover:bg-navy ${code === locale ? "font-semibold" : ""}`}
+                className={`grid h-11 w-16 place-items-center -outline-offset-4 hover:bg-navy ${code === locale ? "bg-navy" : ""}`}
               >
-                {code}
+                <Flag locale={code} />
               </Link>
             </li>
           ))}

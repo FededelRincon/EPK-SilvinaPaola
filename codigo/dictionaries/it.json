@@ -1,0 +1,173 @@
+{
+  "meta": {
+    "languageName": "Italiano",
+    "ogLocale": "it_IT",
+    "title": "Silvina Paola · Artista vocale, interprete e compositrice",
+    "description": "Sito ufficiale di Silvina Paola, artista vocale, interprete e compositrice di Córdoba, Argentina. Conoscere il mondo attraverso la musica."
+  },
+  "nav": {
+    "label": "Navigazione principale",
+    "about": "Chi sono",
+    "trajectory": "Percorso",
+    "music": "Musica",
+    "cultural": "Incontri culturali",
+    "contact": "Contatti",
+    "openMenu": "Apri il menu",
+    "closeMenu": "Chiudi il menu",
+    "language": "Cambia lingua",
+    "skip": "Vai al contenuto"
+  },
+  "common": {
+    "records": "Registrazioni audiovisive",
+    "newTab": "si apre in un’altra scheda",
+    "discover": "Scopri di più",
+    "close": "Chiudi"
+  },
+  "hero": {
+    "role": "Artista vocale · Interprete · Compositrice",
+    "tagline": "Conoscere il mondo attraverso la musica",
+    "listen": "Ascolta l’EP",
+    "contact": "Contatti",
+    "alt": "Silvina Paola canta a occhi chiusi con il microfono in mano, sotto una luce blu"
+  },
+  "about": {
+    "title": "Chi sono",
+    "alt": "Ritratto di Silvina Paola con lunghe trecce, sorridente verso l’obiettivo",
+    "paragraphs": [
+      "Silvina Paola Torcigliani (1º ottobre 1985) è un’artista vocale e interprete che vive a Córdoba, in Argentina.",
+      "Il suo legame con la musica è nato a sette anni, cantando insieme alla madrina e alla sua chitarra. Nel 2010 ha iniziato la formazione vocale e l’esplorazione di diversi linguaggi musicali.",
+      "Dal 2019 il suo percorso di cantante e interprete si consolida attraverso progetti ed esperienze sceniche condivise.",
+      "Il suo universo artistico si distingue per la versatilità degli stili e la curiosità verso altre lingue e culture."
+    ]
+  },
+  "trajectory": {
+    "title": "Percorso",
+    "phrase": "Un viaggio tra linguaggi, palcoscenici ed esperienze musicali diverse.",
+    "universe": "Universo artistico"
+  },
+  "projects": {
+    "misty-soul-choir": {
+      "period": "2019 – Presente",
+      "description": "Repertorio funk, soul e R&B. Esperienza scenica nazionale e internazionale, con esibizioni in Argentina e in Paraguay.",
+      "alt": "Il coro Misty Soul Choir in scena con le braccia alzate"
+    },
+    "ep-sentir-asi": {
+      "period": "2019",
+      "description": "Cinque canzoni originali: testi, musica e interpretazione propri.",
+      "alt": "Volto con trucco fluorescente sotto luce ultravioletta, dalla sessione fotografica di Sentir así"
+    },
+    "marina-gonzalez": {
+      "period": "2023 – 2024",
+      "description": "Stagione a Villa Carlos Paz, festival folcloristici di Córdoba e partecipazione al Festival Nacional de Folklore de Cosquín 2024.",
+      "alt": "Marina González suona il bombo sul palco di Cosquín 2024, accompagnata da Silvina Paola"
+    },
+    "rhythm-gamblers": {
+      "period": "2025 – Settembre 2026",
+      "description": "Repertorio rhythm & blues degli anni ’40 e ’50. Festival e tournée a Buenos Aires e dintorni.",
+      "alt": "I membri di The Rhythm Gamblers in uno studio televisivo"
+    }
+  },
+  "experiences": {
+    "misty-soul-choir": {
+      "subtitle": "",
+      "items": [
+        { "title": "Incontro corale · Teatro La Cumbre, Córdoba (2025)", "text": "" },
+        {
+          "title": "Workshop · Buenos Aires (2025)",
+          "text": "Esperienza di formazione e scambio corale organizzata da Góspel en Argentina, presso la Primera Iglesia Metodista."
+        }
+      ]
+    },
+    "rhythm-gamblers": {
+      "subtitle": "",
+      "items": [
+        { "title": "", "text": "Esperienza scenica come corista, esplorando le armonie vocali e le risorse del doo-wop." },
+        { "title": "Esibizione di rilievo al 21° San Pedro Country Music Festival · Buenos Aires · Settembre 2026.", "text": "" }
+      ]
+    },
+    "marina-gonzalez": {
+      "subtitle": "Folclore argentino",
+      "items": [
+        {
+          "title": "",
+          "text": "Partecipazione vocale e scenica al 64° Festival Nacional de Folklore de Cosquín (2024), nell’ambito di un percorso di stagioni e festival insieme alla cantante."
+        }
+      ]
+    }
+  },
+  "photos": {
+    "misty1": "Silvina Paola batte le mani in scena con Misty Soul Choir",
+    "misty2": "Silvina Paola e altri membri di Misty Soul Choir cantano in una chiesa",
+    "gamblers1": "Tre coriste di The Rhythm Gamblers cantano davanti ai microfoni, in bianco e nero",
+    "gamblers2": "Silvina Paola canta in abito rosso e con fiori tra i capelli insieme a The Rhythm Gamblers",
+    "marinaCosquin": "Silvina Paola sorride e batte le mani sul palco di Cosquín 2024"
+  },
+  "records": {
+    "standByMe": { "title": "", "detail": "Interpretazione solista con Misty Soul Choir · Ciudad de las Artes (25 sec.)" },
+    "backToBlack": { "title": "", "detail": "Omaggio ad Amy Winehouse, con Misty Soul Choir · Studio Theatre (25 sec.)" },
+    "sway": { "title": "", "detail": "Frammento di interpretazione solista · Sala da tè Bohemia · San Pedro (24 sec.)" },
+    "sanPedroLive": { "title": "Esibizione dal vivo", "detail": "San Pedro Country Music Festival" },
+    "cosquin": { "title": "Festival Nacional de Cosquín (2024)", "detail": "" },
+    "balnearia": { "title": "Festi-Bal de Culturas Inmigrantes", "detail": "Balnearia, Córdoba (2024)" },
+    "miLugarAcoustic": { "title": "Mi lugar · versione acustica", "detail": "" },
+    "nuevoAmanecerAcoustic": {
+      "title": "Nuevo amanecer · versione acustica",
+      "detail": "Presentazione dell’opera e partecipazione al ciclo “Un breve encuentro” di Agencia Córdoba Cultura. L’interpretazione musicale inizia al minuto 1:52."
+    }
+  },
+  "music": {
+    "title": "Musica",
+    "phrase": "La composizione e l’interpretazione come spazi di esplorazione personale.",
+    "epTitle": "EP · Sentir así (2019)",
+    "epText": "Primo lavoro discografico solista di Silvina Paola, composto da cinque canzoni originali con testi, musica e interpretazione propri. Concepito come un viaggio emotivo, ogni brano apre una nuova tappa tra il dolore, la trasformazione e l’incontro con sé stessi. Un invito ad ascoltare, sentire e trovare significati propri attraverso la musica.",
+    "epAlt": "Copertina dell’EP Sentir así",
+    "songs": "Canzoni",
+    "selectSong": "Scegli una canzone per ascoltarla",
+    "play": "Riproduci",
+    "fullEp": "Ascolta l’EP completo",
+    "photoSession": "Esplora la sessione fotografica",
+    "cultural": "Incontri culturali",
+    "culturalPhrase": "La musica come ponte tra palcoscenici, lingue e culture.",
+    "watch": "Guarda il videoclip"
+  },
+  "videoclips": {
+    "sara": {
+      "language": "Italiano",
+      "description": "Interpretazione vocale con Philharmonie Ensamble in una produzione musicale e audiovisiva realizzata in studio.",
+      "alt": "Silvina Paola e un’altra cantante registrano Sarà perché ti amo in studio"
+    },
+    "velha": {
+      "language": "Portoghese",
+      "description": "Versione audiovisiva della canzone dei Tribalistas che, tra fiori, natura e colori tenui, evoca l’incontro con la bambina interiore.",
+      "alt": "Silvina Paola distesa tiene in alto dei fiori rosa"
+    }
+  },
+  "projection": {
+    "title": "Visione artistica",
+    "phrase": "La musica come territorio di incontro, creazione e scoperta.",
+    "alt": "Silvina Paola sul palco con un braccio alzato, in bianco e nero",
+    "paragraphs": [
+      "Silvina Paola proietta il suo percorso verso nuovi palcoscenici ed esperienze che amplino i suoi orizzonti artistici e le permettano di scoprire altri modi di creare e interpretare.",
+      "Il suo cammino tra stili, lingue e formazioni musicali diverse alimenta il desiderio di partecipare a progetti scenici, collaborazioni e scambi culturali che favoriscano l’esplorazione e l’apprendimento condiviso.",
+      "Con uno sguardo aperto alla diversità artistica, desidera continuare a costruire una carriera in cui l’interpretazione sia anche un modo di incontrare altre persone, culture e maniere di sentire la musica."
+    ]
+  },
+  "contact": {
+    "title": "Contatti",
+    "phrase": "Artista vocale · Interprete · Compositrice",
+    "alt": "Silvina Paola canta di profilo davanti a uno schermo illuminato",
+    "email": "E-mail",
+    "instagram": "Instagram",
+    "youtube": "YouTube",
+    "location": "Luogo",
+    "place": "Córdoba, Argentina",
+    "copy": "Copia l’e-mail",
+    "copied": "Copiato",
+    "copyError": "Impossibile copiare",
+    "epk": "Scarica l’EPK completo"
+  },
+  "footer": {
+    "phrase": "Conoscere il mondo attraverso la musica.",
+    "epk": "Scarica l’EPK"
+  }
+}

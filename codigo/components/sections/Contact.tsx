@@ -78,12 +78,7 @@ export function Contact({ dict }: { dict: Dictionary }) {
                   external
                   newTab={newTab}
                 />
-                <ContactItem
-                  icon="location"
-                  label={t.location}
-                  value={t.place}
-                  newTab={newTab}
-                />
+                <ContactItem icon="location" label={t.location} value={t.place} newTab={newTab} />
               </ul>
               <a
                 href={links.epk}

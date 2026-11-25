@@ -1,11 +1,13 @@
 import en from "@/dictionaries/en.json";
 import es from "@/dictionaries/es.json";
+import it from "@/dictionaries/it.json";
+import pt from "@/dictionaries/pt.json";
 
 /** Todos los diccionarios deben tener la misma forma que el español. */
 export type Dictionary = typeof es;
 
 /** Para sumar un idioma: importar su JSON y agregarlo acá. */
-const dictionaries = { es, en } satisfies Record<string, Dictionary>;
+const dictionaries = { es, en, it, pt } satisfies Record<string, Dictionary>;
 
 export type Locale = keyof typeof dictionaries;
 

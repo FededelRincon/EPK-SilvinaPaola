@@ -1,6 +1,6 @@
 # Silvina Paola · sitio web
 
-Next.js (App Router) + TypeScript + Tailwind CSS. Una página, en español (`/es`) e inglés (`/en`).
+Next.js (App Router) + TypeScript + Tailwind CSS. Una página, en español (`/es`), inglés (`/en`), italiano (`/it`) y portugués de Brasil (`/pt`).
 
 ## Correr el proyecto
 
@@ -27,16 +27,23 @@ foto se recorta a una proporción fija.
 
 ## Editar textos y enlaces
 
-- Textos: `dictionaries/es.json` y `dictionaries/en.json`.
+- Textos: un archivo por idioma en `dictionaries/`.
 - Enlaces, videos, canciones, redes y rutas de fotos: `lib/content.ts`.
 - Colores, tamaños y sombras: `@theme` en `app/globals.css`.
 
-## Agregar un idioma (portugués, italiano…)
+## Agregar otro idioma (por ejemplo, francés)
 
-1. Copiar `dictionaries/es.json` como `dictionaries/pt.json` y traducir los valores (no las claves).
+1. Copiar `dictionaries/es.json` como `dictionaries/fr.json` y traducir los valores (no las claves).
 2. En `lib/i18n.ts`, importarlo y sumarlo a `dictionaries`:
-   `const dictionaries = { es, en, pt }`.
+   `const dictionaries = { es, en, it, pt, fr }`.
 
-La ruta `/pt`, el selector y los metadatos se generan solos.
+3. Opcional: agregar su bandera en `components/Flag.tsx` (si falta, el selector muestra `FR`).
+
+La ruta `/fr`, el selector y los metadatos se generan solos.
 
 La redirección de `/` a `/es` está en `proxy.ts` (el nombre de `middleware` desde Next 16).
+
+## Proyectos de Trayectoria
+
+El orden de las tarjetas es el de `projects` en `lib/content.ts`. El contenido de la ventana de
+"Descubrir más" sale de `experiences` (fotos y videos) y de los diccionarios (textos).

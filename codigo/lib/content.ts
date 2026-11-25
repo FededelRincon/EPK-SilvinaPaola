@@ -7,6 +7,7 @@ export const sectionIds = [
   "sobre-mi",
   "trayectoria",
   "musica",
+  "encuentros",
   "proyeccion",
   "contacto",
 ] as const;
@@ -16,6 +17,7 @@ export const navItems = [
   { id: "sobre-mi", key: "about" },
   { id: "trayectoria", key: "trajectory" },
   { id: "musica", key: "music" },
+  { id: "encuentros", key: "cultural" },
   { id: "contacto", key: "contact" },
 ] as const;
 
@@ -40,12 +42,32 @@ export const links = {
   photoSession: "https://photos.app.goo.gl/LKDFWuaaK2gdc3GD6",
 } as const;
 
-export const projects = [
+type Project = {
+  id: "misty-soul-choir" | "rhythm-gamblers" | "marina-gonzalez" | "ep-sentir-asi";
+  name: string;
+  photo: string;
+  href?: string;
+};
+
+/**
+ * Del más actual al más antiguo. Con `href` la tarjeta es un enlace; sin él,
+ * abre la ventana con el detalle del mismo `id` en `experiences`.
+ */
+export const projects: readonly Project[] = [
   {
     id: "misty-soul-choir",
     name: "Misty Soul Choir",
     photo: "/images/trayectoria/misty-soul-choir.jpg",
-    href: "#misty-soul-choir",
+  },
+  {
+    id: "rhythm-gamblers",
+    name: "The Rhythm Gamblers",
+    photo: "/images/trayectoria/rhythm-gamblers.jpg",
+  },
+  {
+    id: "marina-gonzalez",
+    name: "Marina González",
+    photo: "/images/trayectoria/marina-gonzalez.jpg",
   },
   {
     id: "ep-sentir-asi",
@@ -53,19 +75,7 @@ export const projects = [
     photo: "/images/trayectoria/ep-sentir-asi.jpg",
     href: "#musica",
   },
-  {
-    id: "marina-gonzalez",
-    name: "Marina González",
-    photo: "/images/trayectoria/marina-gonzalez.jpg",
-    href: "#marina-gonzalez",
-  },
-  {
-    id: "rhythm-gamblers",
-    name: "The Rhythm Gamblers",
-    photo: "/images/trayectoria/rhythm-gamblers.jpg",
-    href: "#rhythm-gamblers",
-  },
-] as const;
+];
 
 /** `title` solo en nombres propios; si falta, el título sale del diccionario. */
 export type MediaRecord = { id: string; url: string; title?: string };
@@ -73,7 +83,6 @@ export type MediaRecord = { id: string; url: string; title?: string };
 export const experiences = [
   {
     id: "misty-soul-choir",
-    name: "Misty Soul Choir",
     photos: [
       { key: "misty1", src: "/images/trayectoria/misty-1.jpg" },
       { key: "misty2", src: "/images/trayectoria/misty-2.jpg" },
@@ -93,7 +102,6 @@ export const experiences = [
   },
   {
     id: "rhythm-gamblers",
-    name: "The Rhythm Gamblers",
     photos: [
       { key: "gamblers1", src: "/images/trayectoria/gamblers-1.jpg" },
       { key: "gamblers2", src: "/images/trayectoria/gamblers-2.jpg" },
@@ -112,7 +120,6 @@ export const experiences = [
   },
   {
     id: "marina-gonzalez",
-    name: "Marina González",
     photos: [
       {
         key: "marinaCosquin",

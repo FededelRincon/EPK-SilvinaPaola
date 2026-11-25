@@ -13,7 +13,7 @@ export function Footer({ dict }: { dict: Dictionary }) {
   return (
     <footer className="bg-navy text-ivory">
       <div className="mx-auto max-w-page px-6 pt-12 pb-8">
-        <p className="font-serif text-xl tracking-widest uppercase">{artistName}</p>
+        <p className="font-serif text-sm tracking-widest uppercase">{artistName}</p>
         <p className="mt-2 font-serif italic">{dict.footer.phrase}</p>
         <ul className="mt-8 flex gap-3">
           {items.map(({ icon, label, href, external, download }) => (

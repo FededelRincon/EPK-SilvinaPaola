@@ -10,6 +10,7 @@
     "about": "Sobre mí",
     "trajectory": "Trayectoria",
     "music": "Música",
+    "cultural": "Encuentros culturales",
     "contact": "Contacto",
     "openMenu": "Abrir menú",
     "closeMenu": "Cerrar menú",
@@ -19,7 +20,8 @@
   "common": {
     "records": "Registros audiovisuales",
     "newTab": "se abre en otra pestaña",
-    "discover": "Descubrir más"
+    "discover": "Descubrir más",
+    "close": "Cerrar"
   },
   "hero": {
     "role": "Artista vocal · Intérprete · Compositora",
@@ -41,9 +43,7 @@
   "trajectory": {
     "title": "Trayectoria",
     "phrase": "Un recorrido por distintos lenguajes, escenarios y experiencias musicales.",
-    "universe": "Universo artístico",
-    "experiences": "Experiencias escénicas",
-    "experiencesPhrase": "La voz como encuentro, expresión y experiencia compartida."
+    "universe": "Universo artístico"
   },
   "projects": {
     "misty-soul-choir": {
@@ -128,8 +128,7 @@
     "photoSession": "Explorar sesión fotográfica",
     "cultural": "Encuentros culturales",
     "culturalPhrase": "La música como puente entre escenarios, idiomas y culturas.",
-    "watch": "Ver videoclip",
-    "close": "Cerrar video"
+    "watch": "Ver videoclip"
   },
   "videoclips": {
     "sara": {

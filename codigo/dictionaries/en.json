@@ -10,6 +10,7 @@
     "about": "About",
     "trajectory": "Journey",
     "music": "Music",
+    "cultural": "Cultural encounters",
     "contact": "Contact",
     "openMenu": "Open menu",
     "closeMenu": "Close menu",
@@ -19,7 +20,8 @@
   "common": {
     "records": "Video recordings",
     "newTab": "opens in a new tab",
-    "discover": "Discover more"
+    "discover": "Discover more",
+    "close": "Close"
   },
   "hero": {
     "role": "Vocal artist · Performer · Songwriter",
@@ -41,9 +43,7 @@
   "trajectory": {
     "title": "Journey",
     "phrase": "A journey through different languages, stages and musical experiences.",
-    "universe": "Artistic universe",
-    "experiences": "On stage",
-    "experiencesPhrase": "The voice as encounter, expression and shared experience."
+    "universe": "Artistic universe"
   },
   "projects": {
     "misty-soul-choir": {
@@ -128,8 +128,7 @@
     "photoSession": "Explore the photo session",
     "cultural": "Cultural encounters",
     "culturalPhrase": "Music as a bridge between stages, languages and cultures.",
-    "watch": "Watch the video",
-    "close": "Close video"
+    "watch": "Watch the video"
   },
   "videoclips": {
     "sara": {
