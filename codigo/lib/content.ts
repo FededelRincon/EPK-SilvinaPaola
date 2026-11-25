@@ -7,6 +7,7 @@ export const sectionIds = [
   "sobre-mi",
   "trayectoria",
   "musica",
+  "proyeccion",
   "contacto",
 ] as const;
 export type SectionId = (typeof sectionIds)[number];
