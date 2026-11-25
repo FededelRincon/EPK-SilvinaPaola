@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "languageName": "English",
+    "ogLocale": "en_US",
+    "title": "Silvina Paola · Vocal artist, performer and songwriter",
+    "description": "Official website of Silvina Paola, vocal artist, performer and songwriter from Córdoba, Argentina. Discovering the world through music."
+  },
+  "nav": {
+    "label": "Main navigation",
+    "about": "About",
+    "trajectory": "Journey",
+    "music": "Music",
+    "contact": "Contact",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "language": "Change language",
+    "skip": "Skip to content"
+  },
+  "common": {
+    "records": "Video recordings",
+    "newTab": "opens in a new tab",
+    "discover": "Discover more"
+  },
+  "hero": {
+    "role": "Vocal artist · Performer · Songwriter",
+    "tagline": "Discovering the world through music",
+    "listen": "Listen to the EP",
+    "contact": "Contact",
+    "alt": "Silvina Paola singing with her eyes closed, microphone in hand, under blue light"
+  },
+  "about": {
+    "title": "About me",
+    "alt": "Portrait of Silvina Paola with long braids, smiling at the camera",
+    "paragraphs": [
+      "Silvina Paola Torcigliani (born October 1, 1985) is a vocal artist and performer based in Córdoba, Argentina.",
+      "Her bond with music began at the age of seven, singing alongside her godmother and her guitar. In 2010 she began her vocal training and set out to explore different musical languages.",
+      "Since 2019, her path as a singer and performer has taken deeper root through shared projects and stage experiences.",
+      "Her artistic universe is defined by stylistic versatility and a curiosity for other languages and cultures."
+    ]
+  },
+  "trajectory": {
+    "title": "Journey",
+    "phrase": "A journey through different languages, stages and musical experiences.",
+    "universe": "Artistic universe",
+    "experiences": "On stage",
+    "experiencesPhrase": "The voice as encounter, expression and shared experience."
+  },
+  "projects": {
+    "misty-soul-choir": {
+      "period": "2019 – Present",
+      "description": "A funk, soul and R&B repertoire. Stage experience at home and abroad, with performances in Argentina and Paraguay.",
+      "alt": "Misty Soul Choir on stage with their arms raised"
+    },
+    "ep-sentir-asi": {
+      "period": "2019",
+      "description": "Five original songs, with her own lyrics, music and performance.",
+      "alt": "Face with fluorescent makeup under ultraviolet light, from the Sentir así photo session"
+    },
+    "marina-gonzalez": {
+      "period": "2023 – 2024",
+      "description": "A season in Villa Carlos Paz, folk festivals across Córdoba and a performance at the Festival Nacional de Folklore de Cosquín 2024.",
+      "alt": "Marina González playing the bombo drum on the Cosquín 2024 stage, accompanied by Silvina Paola"
+    },
+    "rhythm-gamblers": {
+      "period": "2025 – September 2026",
+      "description": "A rhythm & blues repertoire from the 1940s and 50s. Festivals and tours around Buenos Aires.",
+      "alt": "Members of The Rhythm Gamblers in a television studio"
+    }
+  },
+  "experiences": {
+    "misty-soul-choir": {
+      "subtitle": "",
+      "items": [
+        { "title": "Choral gathering · Teatro La Cumbre, Córdoba (2025)", "text": "" },
+        {
+          "title": "Workshop · Buenos Aires (2025)",
+          "text": "A choral training and exchange experience organized by Góspel en Argentina at the Primera Iglesia Metodista."
+        }
+      ]
+    },
+    "rhythm-gamblers": {
+      "subtitle": "",
+      "items": [
+        { "title": "", "text": "Performing as a backing vocalist, exploring vocal harmonies and the textures of doo-wop." },
+        { "title": "Featured performance at the 21st San Pedro Country Music Festival · Buenos Aires · September 2026.", "text": "" }
+      ]
+    },
+    "marina-gonzalez": {
+      "subtitle": "Argentine folk music",
+      "items": [
+        {
+          "title": "",
+          "text": "Vocal and stage performance at the 64th Festival Nacional de Folklore de Cosquín (2024), part of a run of seasons and festivals alongside the singer."
+        }
+      ]
+    }
+  },
+  "photos": {
+    "misty1": "Silvina Paola clapping on stage with Misty Soul Choir",
+    "misty2": "Silvina Paola and fellow members of Misty Soul Choir singing in a church",
+    "gamblers1": "Three backing vocalists of The Rhythm Gamblers singing at their microphones, in black and white",
+    "gamblers2": "Silvina Paola singing in a red dress with flowers in her hair with The Rhythm Gamblers",
+    "marinaCosquin": "Silvina Paola smiling and clapping on the Cosquín 2024 stage"
+  },
+  "records": {
+    "standByMe": { "title": "", "detail": "Solo performance with Misty Soul Choir · Ciudad de las Artes (25 sec.)" },
+    "backToBlack": { "title": "", "detail": "A tribute to Amy Winehouse, with Misty Soul Choir · Studio Theatre (25 sec.)" },
+    "sway": { "title": "", "detail": "Excerpt from a solo performance · Bohemia tea house · San Pedro (24 sec.)" },
+    "sanPedroLive": { "title": "Live performance", "detail": "San Pedro Country Music Festival" },
+    "cosquin": { "title": "Festival Nacional de Cosquín (2024)", "detail": "" },
+    "balnearia": { "title": "Festi-Bal de Culturas Inmigrantes", "detail": "Balnearia, Córdoba (2024)" },
+    "miLugarAcoustic": { "title": "Mi lugar · acoustic version", "detail": "" },
+    "nuevoAmanecerAcoustic": {
+      "title": "Nuevo amanecer · acoustic version",
+      "detail": "A presentation of the work as part of the “Un breve encuentro” series by Agencia Córdoba Cultura. The musical performance begins at 1:52."
+    }
+  },
+  "music": {
+    "title": "Music",
+    "phrase": "Songwriting and performance as spaces for personal exploration.",
+    "epTitle": "EP · Sentir así (2019)",
+    "epText": "Silvina Paola’s first solo record brings together five original songs, with her own lyrics, music and performance. Conceived as an emotional journey, each song opens a new stage between pain, transformation and finding oneself. An invitation to listen, to feel and to discover one’s own meanings through music.",
+    "epAlt": "Cover of the EP Sentir así",
+    "songs": "Songs",
+    "selectSong": "Choose a song to listen",
+    "play": "Play",
+    "fullEp": "Listen to the full EP",
+    "photoSession": "Explore the photo session",
+    "cultural": "Cultural encounters",
+    "culturalPhrase": "Music as a bridge between stages, languages and cultures.",
+    "watch": "Watch the video",
+    "close": "Close video"
+  },
+  "videoclips": {
+    "sara": {
+      "language": "Italian",
+      "description": "Vocal performance with Philharmonie Ensamble in a musical and audiovisual production recorded in the studio.",
+      "alt": "Silvina Paola and another singer recording Sarà perché ti amo in a studio"
+    },
+    "velha": {
+      "language": "Portuguese",
+      "description": "A visual rendition of the Tribalistas song that, among flowers, nature and soft colors, evokes a reunion with the inner child.",
+      "alt": "Silvina Paola lying down, holding pink flowers above her"
+    }
+  },
+  "projection": {
+    "title": "Artistic vision",
+    "phrase": "Music as a place of encounter, creation and discovery.",
+    "alt": "Silvina Paola on stage with one arm raised, in black and white",
+    "paragraphs": [
+      "Silvina Paola looks toward new stages and experiences that will broaden her artistic horizons and reveal other ways of creating and performing.",
+      "Her path through different styles, languages and ensembles feeds her desire to take part in stage projects, collaborations and cultural exchanges that nurture exploration and shared learning.",
+      "With an open gaze toward artistic diversity, she seeks to keep building a career in which performance is also a way of meeting other people, cultures and ways of feeling music."
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "phrase": "Vocal artist · Performer · Songwriter",
+    "alt": "Silvina Paola singing in profile in front of a glowing screen",
+    "email": "Email",
+    "instagram": "Instagram",
+    "youtube": "YouTube",
+    "location": "Location",
+    "place": "Córdoba, Argentina",
+    "copy": "Copy email",
+    "copied": "Copied",
+    "copyError": "Could not copy",
+    "epk": "Download the full EPK"
+  },
+  "footer": {
+    "phrase": "Discovering the world through music.",
+    "epk": "Download EPK"
+  }
+}

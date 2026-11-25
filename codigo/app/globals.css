@@ -1,0 +1,122 @@
+@import "tailwindcss";
+
+@theme {
+  --color-navy: #1f3863;
+  --color-navy-deep: #054374;
+  --color-ivory: #ffffeb;
+  --color-sky: #5b8fc9;
+  --color-ink: #1a1a1a;
+
+  --text-display: clamp(2rem, 4.2vw, 3.5rem);
+  --text-display--line-height: 1.15;
+  --text-heading: clamp(1.75rem, 3.4vw, 2.75rem);
+  --text-heading--line-height: 1.2;
+  --text-lead: clamp(1.15rem, 1.9vw, 1.5rem);
+  --text-lead--line-height: 1.5;
+
+  --shadow-soft: 0 18px 45px -14px rgb(31 56 99 / 0.38);
+  --shadow-deep: 0 18px 50px -12px rgb(0 0 0 / 0.5);
+  --radius-photo: 0.625rem;
+  --container-page: 76rem;
+
+  --aspect-hero: 1125 / 1419;
+}
+
+@theme inline {
+  --font-serif: var(--font-baskerville), Georgia, serif;
+  --font-sans: var(--font-inter), system-ui, sans-serif;
+}
+
+:root {
+  --nav-height: 4.5rem;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    background: var(--color-navy);
+  }
+  html:has(dialog[open]) {
+    overflow: hidden;
+  }
+  body {
+    background: var(--color-ivory);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+  }
+  section[id],
+  article[id] {
+    scroll-margin-top: var(--nav-height);
+  }
+  /* Doble anillo: se distingue sobre marfil, navy y fotos. */
+  :focus-visible {
+    outline: 2px solid var(--color-navy-deep);
+    outline-offset: 3px;
+    box-shadow: 0 0 0 3px var(--color-ivory);
+  }
+  button:not(:disabled) {
+    cursor: pointer;
+  }
+}
+
+@utility nav-offset {
+  padding-top: var(--nav-height);
+}
+
+@utility glow-hero {
+  background: radial-gradient(closest-side, color-mix(in srgb, var(--color-sky) 55%, transparent), transparent);
+}
+
+@utility glow-portrait {
+  background: radial-gradient(closest-side, color-mix(in srgb, var(--color-navy) 38%, transparent), transparent);
+}
+
+@utility link-ivory {
+  color: var(--color-navy-deep);
+  text-decoration: underline;
+  text-decoration-color: var(--color-sky);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+  &:hover {
+    text-decoration-color: var(--color-navy-deep);
+  }
+}
+
+@utility link-navy {
+  color: var(--color-ivory);
+  text-decoration: underline;
+  text-decoration-color: var(--color-sky);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+  &:hover {
+    text-decoration-color: var(--color-ivory);
+  }
+}
+
+/* Sin JavaScript o con movimiento reducido, el contenido se ve directamente. */
+@media (prefers-reduced-motion: no-preference) and (scripting: enabled) {
+  .reveal {
+    opacity: 0;
+    transform: translateY(16px);
+    transition:
+      opacity 550ms ease-out,
+      transform 550ms ease-out;
+    transition-delay: calc(var(--reveal-index, 0) * 80ms);
+  }
+  .reveal[data-visible="true"] {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+}
